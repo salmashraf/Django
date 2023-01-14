@@ -1,0 +1,10 @@
+body{
+    background-color: wheat;
+    color: black;
+}
+table,
+tr,
+td {
+
+    border: 2px solid blue;
+}

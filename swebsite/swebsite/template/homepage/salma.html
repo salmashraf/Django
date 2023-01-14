@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1 style = "color: blue" > Welcome to the Home page, Lets Start the journey :D </h1> 
+<img src = "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1200px-SpongeBob_SquarePants_character.svg.png" width = "150" , height = "150" >
+
+<h1> {{user|capfirst|add:" Ashraf's task"}} </h1>
+
+{% for ele in users %}
+<h1> {{ele}}</h1>
+{% endfor %}
+
+{% endblock %}
